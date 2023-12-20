@@ -110,3 +110,40 @@ button
     align-items: center;
     gap: 10px;
 }
+@media(max-width:390px)
+{
+    main
+    {
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto auto auto;
+        height: auto;
+    }
+    .part1
+    {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    width: auto;
+    }
+    .part2
+    {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    border-bottom-left-radius: 0px;
+    width: 300px;
+    }
+    .part3
+    {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    width: auto;
+    }
+}
