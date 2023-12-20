@@ -1,0 +1,112 @@
+@import url("https://fonts.google.com/specimen/Karla");
+* {
+	font-family: Karla;
+	box-sizing: border-box;
+	font-weight: 400;
+}
+body
+{
+    background-color: hsl(204, 43%, 93%);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+    
+}
+main
+{
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    place-items: center;
+    height: 300px;
+    width: 400px;
+    border-radius: 10px;
+    box-shadow: 5px 10px 10px 10px hsl(204, 36%, 84%);
+}
+.part1
+{
+    background-color: white;
+    place-content: center;
+    height: 150px;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    padding: 20px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.part2
+{
+    background-color: hsl(179, 62%, 43%);
+    height: 150px;
+    width: 200px;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    padding: 20px;
+    border-bottom-left-radius: 10px;
+}
+.part3
+{
+    background-color: hsl(176, 44%, 52%);
+    height: 150px;
+    width: 200px;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    padding: 20px;
+    border-bottom-right-radius: 10px;
+}
+.a
+{
+    font-size: 15px;
+    color: hsl(179, 62%, 43%);
+}
+.same1
+{
+    font-size: 13px;
+}
+.same
+{
+    font-size: 10px;
+}
+.price
+{
+    font-size: 23px;
+    color: white;
+}
+#yg
+{
+    color: hsl(71, 73%, 54%);
+}
+#gb
+{
+    color: hsl(218, 22%, 67%);
+}
+#w
+{
+    color: white;
+}
+#x
+{
+    color: rgb(200, 221, 221);
+}
+button
+{
+    background-color: hsl(71, 73%, 54%);
+    border: none;
+    width: 150px;
+    height: 25px;
+    border-radius: 5px;
+    box-shadow: 5px 10px 10px 5px rgb(42, 150, 153);
+}
+.gap
+{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
